@@ -87,7 +87,7 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"荼吉尼(香港🇭🇰)","type":"vless","server":"cloudflare.182682.xyz","port":2052,"uuid":"a2ab3776-4839-433d-8940-053235ed0ea4","tls":false,"servername":"cyberangel.pungwing.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cyberangel.pungwing.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"荼吉尼(香港🇭🇰)","type":"vless","server":"*.cloudflare.182682.xyz","port":2052,"uuid":"a2ab3776-4839-433d-8940-053235ed0ea4","tls":false,"servername":"cyberangel.pungwing.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cyberangel.pungwing.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"伊舎那(新加坡🇸🇬)","type":"vless","server":"speed.marisalnc.com","port":2052,"uuid":"a2ab3776-4839-433d-8940-053235ed0ea4","tls":false,"servername":"cyberangel.pungwing.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cyberangel.pungwing.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"弁天(日本🇯🇵)","type":"vless","server":"115155.xyz","port":2052,"uuid":"a2ab3776-4839-433d-8940-053235ed0ea4","tls":false,"servername":"cyberangel.pungwing.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cyberangel.pungwing.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"韦驮天(韩国🇰🇷)","type":"vless","server":"freeyx.cloudflare88.eu.org","port":80,"uuid":"a2ab3776-4839-433d-8940-053235ed0ea4","tls":false,"servername":"cyberangel.pungwing.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cyberangel.pungwing.workers.dev"}},"client-fingerprint":"randomized"}
