@@ -55,7 +55,7 @@ proxy-providers:
   订阅一:
     <<: *p
     path: ./proxy_provider/订阅一.yaml
-    url: "https://gist.githubusercontent.com/PungwingChan/e15d9691b71e5a5c2be34f8a2288dfa2/raw/GCP-Mihomo"
+    url: "https://example.com/api/v1/client/subscribe?token=ilovechina"
 
   订阅二:
     <<: *p
@@ -69,7 +69,7 @@ proxy-providers:
 # 规则订阅
 rule-providers:
   # anti-AD 广告拦截规则
-  # https://🐙Github.com/privacy-protection-tools/anti-AD
+  # https://Github.com/privacy-protection-tools/anti-AD
   # 如果误杀率高请自行更换
   anti-AD:
     type: http
@@ -77,7 +77,7 @@ rule-providers:
     format: yaml
     # path可为空(仅限clash.meta 1.15.0以上版本)
     path: ./rule_provider/anti-AD.yaml
-    url: "https://raw.🐙Githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml?"
+    url: "https://raw.Githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml?"
     interval: 600
   # anti-AD 白名单规则
   anti-AD-white:
@@ -86,7 +86,7 @@ rule-providers:
     format: yaml
     # path可为空(仅限clash.meta 1.15.0以上版本)
     path: ./rule_provider/anti-AD-white.yaml
-    url: "https://raw.🐙Githubusercontent.com/privacy-protection-tools/dead-horse/master/anti-ad-white-for-clash.yaml?"
+    url: "https://raw.Githubusercontent.com/privacy-protection-tools/dead-horse/master/anti-ad-white-for-clash.yaml?"
     interval: 600
 
 mode: rule
@@ -111,12 +111,12 @@ geodata-mode: true
 
 # Geo 数据库下载地址
 # 使用 FastGit 代理 (https://fgit.cf)
-# 源地址 https://🐙Github.com/MetaCubeX/meta-rules-dat
+# 源地址 https://Github.com/MetaCubeX/meta-rules-dat
 # 可以更换镜像站但不要更换其他数据库，可能导致无法启动
 geox-url:
-  geoip: "https://hub.gitmirror.com/https://🐙Github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat"
-  geosite: "https://hub.gitmirror.com/https://🐙Github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
-  mmdb: "https://hub.gitmirror.com/https://🐙Github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb"
+  geoip: "https://hub.gitmirror.com/https://Github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat"
+  geosite: "https://hub.gitmirror.com/https://Github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+  mmdb: "https://hub.gitmirror.com/https://Github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb"
 
 # 进程匹配模式
 # 路由器上请设置为 off
@@ -126,7 +126,7 @@ geox-url:
 find-process-mode: strict
 
 # 缓解移动设备耗电问题
-# https://🐙Github.com/vernesong/OpenClash/issues/2614
+# https://Github.com/vernesong/OpenClash/issues/2614
 keep-alive-interval: 1800
 
 # 全局客户端指纹
